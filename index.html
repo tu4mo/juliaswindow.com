@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Listen and download Julia's Window debut album In Circles for free!">
+    <meta property="og:title" content="Julia's Window - In Circles">
+    <meta property="og:description" content="Listen and download Julia's Window debut album In Circles for free!">
+    <meta property="og:image" content="http://www.juliaswindow.com/img/cover.jpg">
+    <title>Julia's Window</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>
+      $(function() {
+        $(".box").each(function() {
+          $(this).find("p").last().css("margin", "0");
+        });
+      });
+
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+      var pageTracker = _gat._getTracker("UA-3806411-1");
+      pageTracker._initData();
+      pageTracker._trackPageview();
+    </script>
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#appId=251474964889627&xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <header>
+      <div class="top_content">
+        <script type="text/javascript">
+          $(function() {
+            $(".menu_item").click(function() {
+              var position = $("#content_" + $(this).text().toLowerCase()).position().top;
+              $("html, body").animate({ scrollTop: position }, 500);
+            });
+          });
+        </script>
+        <div class="menu">
+          <img src="img/jw.png" alt="Julia's Window" class="menu_logo">
+          <div class="social">
+            <a href="http://www.facebook.com/juliaswindow" target="_blank"><span class="fa fa-facebook-official" title="Facebook"></span></a>
+            <a href="http://www.twitter.com/juliaswindow" target="_blank"><span class="fa fa-twitter" title="Twitter"></span></a>
+            <a href="https://www.instagram.com/juliaswindow" target="_blank"><span class="fa fa-instagram" title="Instagram"></span></a>
+            <a href="http://www.soundcloud.com/juliaswindow/sets/in-circles" target="_blank"><span class="fa fa-soundcloud" title="SoundCloud"></span></a>
+            <a href="spotify:artist:7hFXicYFyor5YAmuDsMjNW" target="_blank"><span class="fa fa-spotify" title="Spotify"></span></a>
+          </div>
+        </div>
+        <img src="img/top.jpg" class="top_image">
+      </div>
+    </header>
+    <main>
+      <div class="frame">
+        <div class="box">
+          <img src="img/cover.jpg" alt="Julia's Window - In Circles" class="box_image">
+        </div>
+        <div class="box" id="content_listen">
+          <div class="box_content">
+            <iframe width="100%" height="410" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1115625&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=false&amp;show_comments=false&amp;show_playcount=false&amp;show_user=false&amp;show_reposts=false&amp;visual=false&amp;color=7d98a9"></iframe>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
