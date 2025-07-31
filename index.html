@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script>
       var gaJsHost = "https:" == document.location.protocol ? "https://ssl." : "http://www.";
       document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -25,14 +24,6 @@
   <body>
     <header>
       <div class="top_content">
-        <script type="text/javascript">
-          $(function () {
-            $(".menu_item").click(function () {
-              var position = $("#content_" + $(this).text().toLowerCase()).position().top;
-              $("html, body").animate({ scrollTop: position }, 500);
-            });
-          });
-        </script>
         <div class="menu">
           <img src="img/jw.png" alt="Julia's Window" class="menu_logo" />
           <div class="social">
