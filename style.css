@@ -4,8 +4,8 @@
 }
 
 body {
-  background: #eee url('../img/background.jpg') repeat-y 50% 0;
-  font-family: 'Abel', sans-serif;
+  background: #eee url("../img/background.jpg") repeat-y 50% 0;
+  font-family: "Abel", sans-serif;
 }
 
 header {
@@ -75,7 +75,7 @@ header {
   margin-left: 10px;
 }
 
-.frame {
+main {
   margin: 0 auto;
   overflow: hidden;
 }
@@ -137,7 +137,7 @@ img {
 }
 
 h1 {
-  background: url('../img/divider.png') no-repeat 0% 100%;
+  background: url("../img/divider.png") no-repeat 0% 100%;
   color: #222;
   font-size: 30px;
   font-weight: bold;
@@ -179,7 +179,7 @@ p.small {
 }
 
 @media (min-width: 992px) {
-  .frame {
+  main {
     width: 992px;
   }
 
