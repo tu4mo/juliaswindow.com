@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "serve": "14.2.6"
+    "serve": "14.2.8"
   }
 }
